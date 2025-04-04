@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DÉMODÉ</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mr+Dafoe&family=Reem+Kufi:wght@400..700&display=swap"
+        rel="stylesheet">
+
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div id="login">
+        <h2>Inserisci la password</h2>
+        <input type="password" id="password" placeholder="Password">
+        <button onclick="checkPassword()">Accedi</button>
+        <p id="error" style="color: red; display: none;">Password errata!</p>
+    </div>
+    <div id="content" style="display: none;">
+        <div class="ham-button-div">
+            <a class="ham-button-open" href=""><img class="ham-button-div_buttons" src="img/openbtn.svg" alt=""></a>
+            <a class="ham-button-close hidden" href=""><img class="ham-button-div_buttons" src="img/closebtn.svg"
+                    alt=""></a>
+        </div>
+        <header class="header hidden">
+            <nav class="header_nav">
+                <ul class="header_nav_ul">
+                    <li class="header_nav_li"><a class="header_nav_li_a" href="#hero">Home</a></li>
+                    <li class="header_nav_li"><a class="header_nav_li_a" href="#about">Chi siamo</a></li>
+                    <li class="header_nav_li"><a class="header_nav_li_a" href="#servizi">I nostri servizi</a></li>
+                    <li class="header_nav_li"><a class="header_nav_li_a" href="#contatti">Contatti</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="cta-button">
+            <a href=""><img src="img/phone.svg" alt=""></a>
+        </div>
+        <section class="hero" id="hero">
+            <div class="hero_titles">
+                <div class="hero_titles_one">
+                    <img src="img/lines.svg" alt="three red lines to decorate text">
+                    <p class="hero_title_one-p">Barberia</p>
+                    <img class="hero_titles_one-secondline" src="img/lines.svg" alt="three red lines to decorate text">
+                </div>
+                <h1 class="hero_titles-h1">DÉMODÉ</h1>
+                <p class="hero_titles-p">EST.2019</p>
+            </div>
+        </section>
+        <section class="about" id="about">
+            <h2 class="about-h2">Chi siamo</h2>
+            <div class="about_div">
+                <div class="about_div_about">
+                    <p class="about_div_about-p">Barberia <span class="about_div_about-span1">DÉMODÉ</span> è attenzione
+                        ai dettagli, professionalità e oltre <span>quindici anni</span> di esperienza.</p>
+                    <div><img src="img/demode-interno.png" alt=""></div>
+                </div>
+                <div class="about_div_reviews">
+                    <!-- cancella -->
+                    <div class="gallery">
+
+
+                        <div class="gallery_images">
+                            <h1 class="hidden">Le recensioni dei nostri clienti:</h1>
+                            <div class="gallery_images_div ">
+                                <img src="./img/rec/demode-rec1.png" alt="" class="gallery_images_div-image">
+                            </div>
+                            <div class="gallery_images_div hidden">
+                                <img src="./img/rec/demode-rec2.png" alt="" class="gallery_images_div-image">
+                            </div>
+                            <div class="gallery_images_div hidden">
+                                <img src="./img/rec/demode-rec3.png" alt="" class="gallery_images_div-image">
+                            </div>
+                            <div class="gallery_images_div hidden">
+                                <img src="./img/rec/demode-rec4.png" alt="" class="gallery_images_div-image">
+                            </div>
+                            <div class="gallery_images_div hidden">
+                                <img src="./img/rec/demode-rec5.png" alt="" class="gallery_images_div-image">
+                            </div>
+                            <div class="gallery_images_div hidden">
+                                <img src="./img/rec/demode-rec6.png" alt="" class="gallery_images_div-image">
+                            </div>
+                            <div class="gallery_images_div hidden">
+                                <img src="./img/rec/demode-rec7.png" alt="" class="gallery_images_div-image">
+                            </div>
+                            <div class="gallery_images_div hidden">
+                                <img src="./img/rec/demode-rec8.png" alt="" class="gallery_images_div-image">
+                            </div>
+                            <div class="gallery_images_div hidden">
+                                <img src="./img/rec/demode-rec9.png" alt="" class="gallery_images_div-image">
+                            </div>
+                            <div class="gallery_images_div hidden">
+                                <img src="./img/rec/demode-rec10.png" alt="" class="gallery_images_div-image">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- cancella -->
+                </div>
+            </div>
+
+        </section>
+        <section class="servizi" id="servizi">
+            <h2 class="servizi-h2">I nostri servizi</h2>
+            <div class="servizi_servizi">
+                <div>
+                    <p class="servizi_servizi-servizio">Taglio uomo</p>
+                    <p class="servizi_servizi-prezzo">20</p>
+                </div>
+                <div>
+                    <p class="servizi_servizi-servizio">Taglio + Shampoo</p>
+                    <p class="servizi_servizi-prezzo">25</p>
+                </div>
+                <div>
+                    <p class="servizi_servizi-servizio">Taglio Bambino (fino a 12 anni)</p>
+                    <p class="servizi_servizi-prezzo">15</p>
+                </div>
+                <div>
+                    <p class="servizi_servizi-servizio">Regolazione barba</p>
+                    <p class="servizi_servizi-prezzo">15</p>
+                </div>
+                <div>
+                    <p class="servizi_servizi-servizio">Rasatura tradizionale</p>
+                    <p class="servizi_servizi-prezzo">20</p>
+                </div>
+                <div>
+                    <p class="servizi_servizi-servizio">Taglio + Regolazione Barba</p>
+                    <p class="servizi_servizi-prezzo">30</p>
+                </div>
+                <div>
+                    <p class="servizi_servizi-servizio">Taglio + Rasatura Completa</p>
+                    <p class="servizi_servizi-prezzo">35</p>
+                </div>
+                <div>
+                    <p class="servizi_servizi-servizio">Modellatura Barba con Trattamento Specifico</p>
+                    <p class="servizi_servizi-prezzo">20</p>
+                </div>
+                <div>
+                    <p class="servizi_servizi-servizio">Colore Uomo</p>
+                    <p class="servizi_servizi-prezzo">25</p>
+                </div>
+            </div>
+        </section>
+        <section class="contatti" id="contatti">
+            <h2 class="contatti-h2">Contatti</h2>
+            <div class="contatti_telefono">
+                <div class="contatti_telefono_icon">
+                    <img class="contatti_telefono_icon-icon contatti-icons" src="img/phone icon.svg" alt="">
+                </div>
+                <div class="contatti_telefono_text">
+                    <h2 class="contatti_telefono_text-h2">Telefono</h2>
+                    <p class="contatti_telefono_text-p">0645541109</p>
+                </div>
+            </div>
+            <div class="contatti_indirizzo">
+                <div class="contatti_indirizzo_icon">
+                    <img class="contatti_indirizzo_icon-icon contatti-icons" src="img/location icon.svg" alt="">
+                </div>
+                <div class="contatti_indirizzo_text">
+                    <h2 class="contatti_indirizzo_text-h2">Indirizzo</h2>
+                    <p class="contatti_indirizzo_text-p">Via Maria Barbara Tosatti, 27, 00137 Roma RM</p>
+                </div>
+            </div>
+            <div class="contatti_map">
+                <!-- inserire frame mappa -->
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2967.5819942826333!2d12.545884676486478!3d41.944832761232625!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f658ab87814cd%3A0xe411f6d495a25f3!2zQmFyYmVyaWEgRMOpbW9kw6k!5e0!3m2!1sit!2sit!4v1743241438146!5m2!1sit!2sit"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="contatti_orari">
+                <div class="contatti_orari_icon">
+                    <img class="contatti_orari_icon-icon contatti-icons" src="img/clock icon.svg" alt="">
+                </div>
+                <div class="contatti_orari_text">
+                    <h2 class="contatti_orari_text-h2">Orari</h2>
+                    <div class="contatti_orari_text-orari">
+                        <p>lunedì</p>
+                        <p>chiuso</p>
+                    </div>
+                    <div class="contatti_orari_text-orari">
+                        <p>martedì</p>
+                        <p>9:00-19:00</p>
+                    </div>
+                    <div class="contatti_orari_text-orari">
+                        <p>mercoledì</p>
+                        <p>14:30-19:00</p>
+                    </div>
+                    <div class="contatti_orari_text-orari">
+                        <p>giovedì</p>
+                        <p>9:00-19:00</p>
+                    </div>
+                    <div class="contatti_orari_text-orari">
+                        <p>venerdì</p>
+                        <p>9:00-19:00</p>
+                    </div>
+                    <div class="contatti_orari_text-orari">
+                        <p>sabato</p>
+                        <p>8:30-18:00</p>
+                    </div>
+                    <div class="contatti_orari_text-orari">
+                        <p>domenica</p>
+                        <p>chiuso</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <!-- inserire dati utili -->
+        </footer>
+    </div>
+
+</body>
+
+</html>
