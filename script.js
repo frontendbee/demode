@@ -79,13 +79,13 @@ function hideOrShowNavbar(){
     
 
     // password
-    function checkPassword() {
-        const password = document.getElementById("password").value;
-        const correctPassword = "password"; // Cambia questa con la tua password
-        if (password === correctPassword) {
-            document.getElementById("login").style.display = "none";
-            document.getElementById("content").style.display = "block";
-        } else {
-            document.getElementById("error").style.display = "block";
-        }
-    }
+    // function checkPassword() {
+    //     const password = document.getElementById("password").value;
+    //     const correctPassword = "password"; // Cambia questa con la tua password
+    //     if (password === correctPassword) {
+    //         document.getElementById("login").style.display = "none";
+    //         document.getElementById("content").style.display = "block";
+    //     } else {
+    //         document.getElementById("error").style.display = "block";
+    //     }
+    // }
