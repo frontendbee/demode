@@ -521,6 +521,7 @@ header {
 .contatti_orari_text{
   /* background-color: violet; */
   width: 100%;
+  min-width: 285px;
 }
 
 .contatti_telefono_text,
